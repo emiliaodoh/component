@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 import './App.css';
-import Profilephoto from './Component/Profile/Profilepic';
+import Address from './Component/Profile/Address';
+import FullName from './Component/Profile/FullName';
+import ProfilePhoto from './Component/Profile/Profilephoto';
 
 function App() {
   return (
     <div>
-   <Profilephoto/>
+       <ProfilePhoto />
+       <FullName />
+       <Address />
     </div>
   );
 }

@@ -1,38 +1,30 @@
-.App {
+.joy {
   text-align: center;
+  background-color: rgb(72, 240, 29);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+   height: 40vmin;
+  pointer-events: none; 
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7d7oa6iLi5QRKEQ43RVSTO9zoDyWEeB0NCQ&usqp=CAU);
+  background-size: auto;
+  margin-left: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 20%;
+  border-radius: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.joy2{
+  text-align: center;
+  background-color: rgb(72, 240, 29);
+  margin-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
